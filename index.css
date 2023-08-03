@@ -1,0 +1,52 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+:root{
+    --background-color:#212121;
+    color: #FFFFFF;
+}
+  html{
+    font-family: 'Inter', sans-serif;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background-color);
+  }
+
+  #video-container{
+    display: flex;
+    flex-flow: row;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  #video-container .video-info-container{
+    width: 23%;
+  }
+  .video-Descreption{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .video-Descreption .channel-descreption{
+    color: var(--gray-color, #AAA);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .video-title{
+    color:  #FFF;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+
+
+
+

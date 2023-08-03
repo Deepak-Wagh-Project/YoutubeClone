@@ -1,0 +1,52 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+
+.left{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.left div{
+    padding: 10px;
+}
+
+.middle{
+    
+    display: flex;
+    gap: 10px;
+  
+  
+}
+.middle .input {
+    display: flex;
+    align-items: stretch;
+    float: 1;
+   
+    
+}
+.middle .input input{
+    border: none;
+    flex: 1;
+    
+    
+}
+.middle .input button{
+    border: none;
+    background-color: #303030;
+    
+    
+    
+}
+input:focus{
+    outline: none;
+}
+
+.right{
+    display: flex;
+   
+}
