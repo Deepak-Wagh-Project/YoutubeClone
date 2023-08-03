@@ -1,5 +1,5 @@
 const baseUrl="https://www.googleapis.com/youtube/v3";
-const apiKey="AIzaSyCsTODKIhjkRgBmXTRfx3_z33cwXajdI50";
+const apiKey="AIzaSyDBbJuCnm3XgeOaVYIPo8DKTxGoiI0kWYU";
 const q="CodeWithHarry"
 let  container =document.getElementById("video-container");
 
