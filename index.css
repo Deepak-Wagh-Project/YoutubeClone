@@ -13,6 +13,32 @@
     box-sizing: border-box;
     background-color: var(--background-color);
   }
+.main-container{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.side-bar-container{
+  display: flex;
+  flex-flow: column;
+ 
+}
+.side-bar-container div div{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  gap: 4px;
+}
+
+.side-bar-container div p{
+  color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 
   #video-container{
     display: flex;
