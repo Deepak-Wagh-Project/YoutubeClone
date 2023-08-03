@@ -2,12 +2,14 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 30px;
   
   }
 
 .left{
     display: flex;
     align-items: center;
+    height: 100%;
     
     
 }
@@ -19,19 +21,27 @@ nav{
     
     display: flex;
     gap: 10px;
+    width: 60;
+    height: 100%;
+    width: 60%;
   
   
 }
 .middle .input {
     display: flex;
     align-items: stretch;
-    float: 1;
+    width: 100%;
+    padding: 4px;
+    
    
     
 }
 .middle .input input{
     border: none;
-    flex: 1;
+   
+    width: 90%;
+    padding: 4px;
+    border-radius: 12px;
     
     
 }
@@ -48,5 +58,6 @@ input:focus{
 
 .right{
     display: flex;
-   
+    height: 100%;
+    padding: 4px;
 }
