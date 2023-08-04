@@ -39,7 +39,7 @@ function renderData(videos){
         const thumbnail = video.snippet.thumbnails.high.url;
         container.innerHTML+=`
         <div class="video-info-container">
-        <div class="video-Info" onclick="openVideoDetails('${video.id}')">
+        <div class="video-Info" onclick="openVideoDetails('${video.id.videoId}')">
         <div class="video-Image">
                         <img src="${thumbnail}" alt="image" width="100%" height="100%">
         </div>
